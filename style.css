@@ -21,16 +21,27 @@ main{
 }
 aside{
     background-color: yellow;
-    height: 80svh;
+    height: 100svh;
     width: 100px;
     position: fixed;
     top: 50px;
     left: 0;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  align-items: start;
+justify-content: center;
+}
+img{
+    width: 50px;
 }
 section{
     background-color: purple;
     width: 70svw;
-    height: 300px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -39,7 +50,31 @@ section{
 }
 article{
     background-color: lightblue;
-    width: 100px;
-    height: 80px;
+    width: 40%;
+    height: 90%;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+#mercury{
+    background-color: orange;
+}
+#venus{
+    background-color: lime;
+}
+#mars{
+    background-color: coral;
+}
+.planet-facts{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.planet-list{
+    border: solid 5px red;
+    border-radius: 20px;
 }
