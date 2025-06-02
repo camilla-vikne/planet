@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    width: 100svw;
+    background-color: green;
+}
+main{
+    width: 100svw;
+    height: 100svh;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+aside{
+    background-color: yellow;
+    height: 80svh;
+    width: 100px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+}
+section{
+    background-color: purple;
+    width: 200px;
+    height: 100px;
+}
+article{
+    background-color: lightblue;
+}
